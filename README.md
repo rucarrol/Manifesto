@@ -47,6 +47,14 @@ Network Engineers Manifesto
 		- Latency to/drop server from all DCs
 - All monitoring to be a single pane of glass for our users, API driven to allow them to extract their own 
 
+
+**Documentation**
+
+- Everything required to understand the network should be documented
+- Documentation must never be out of date.  Automation can help with this
+- Use documentation to explain why choices have been made
+- Use documentation to explain what other options were rejected
+
 		
 **Deployment**
 
