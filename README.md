@@ -50,7 +50,7 @@ Network Engineers Manifesto
 		
 **Deployment**
 
-- ABSOULTELY NO STATIC ROUTING 
+- Static routing to be avoided wherever possible
 - Zero touch deployment for new gear
 - Entirely templated configlets:
 	- Base system configuration, including:  AAA, Logging,  
