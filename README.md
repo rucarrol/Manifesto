@@ -13,7 +13,7 @@ Network Engineers Manifesto
 - "Good enough" is too low a bar
 
 
-**Monitoring** 
+**[Monitoring](https://github.com/rucarrol/Manifesto/blob/master/Monitoring.md)** 
 
 - Monitor, at least:
 - Per switch:
