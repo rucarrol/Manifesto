@@ -70,6 +70,10 @@ Network Engineers Manifesto
 - Design and build a working lab for prototyping configuration 
 - Goal to provide an API to our end users to deploy their infrastructure as they see fit  
 
+##### Planning for failure
+- You need redundancy and failovers
+    - Your [storage|servers|routers|switches|uplinks|interlinks] are going to fail. Plan for automatic alternatives.
+    - Having 3 independent fail safe systems is just fluff if you don't test failover - periodically.
 
 ##### Remote offices
 
