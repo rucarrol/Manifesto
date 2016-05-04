@@ -72,7 +72,7 @@ Network Engineers Manifesto
 
 ##### Planning for failure
 - You need redundancy and failovers
-    - Your [storage|servers|routers|switches|uplinks|interlinks] are going to fail. Plan for automatic alternatives.
+    - Your `[storage|servers|routers|switches|uplinks|etc.]` are going to fail, sometimes in an isolated manner, sometimes in spectacular simultaneous blowouts. Plan for automatic alternatives.
     - Having 3 independent fail safe systems is just fluff if you don't test failover - periodically.
 
 ##### Remote offices
