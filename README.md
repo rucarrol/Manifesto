@@ -2,7 +2,7 @@
 
 Network Engineers Manifesto 
 
-##### Key motivating factors:
+### Key motivating factors:
 
 - Data driven decisions.
 - Excellence in all things. 
@@ -13,7 +13,7 @@ Network Engineers Manifesto
 - "Good enough" is too low a bar
 
 
-##### [Monitoring](Monitoring.md) 
+### [Monitoring](Monitoring.md) 
 
 - Monitor, at least:
 - Per switch:
@@ -48,7 +48,7 @@ Network Engineers Manifesto
 - All monitoring to be a single pane of glass for our users, API driven to allow them to extract their own 
 
 
-##### Documentation
+### Documentation
 
 - Everything required to understand the network should be documented
 - Documentation must never be out of date.  Automation can help with this
@@ -56,7 +56,7 @@ Network Engineers Manifesto
 - Use documentation to explain what other options were rejected
 
         
-##### Deployment
+### Deployment
 
 - Static routing to be avoided wherever possible
 - Zero touch deployment for new gear
@@ -70,12 +70,12 @@ Network Engineers Manifesto
 - Design and build a working lab for prototyping configuration 
 - Goal to provide an API to our end users to deploy their infrastructure as they see fit  
 
-##### Planning for failure
+### Planning for failure
 - You need redundancy and failovers
     - Your `[storage|servers|routers|switches|uplinks|etc.]` are going to fail, sometimes in an isolated manner, sometimes in spectacular simultaneous blowouts. Plan for automatic alternatives.
     - Having 3 independent fail safe systems is just fluff if you don't test failover - periodically.
 
-##### Remote offices
+### Remote offices
 
 - Regular random polling of remote users on office internet, general feeling of office network
 - Managing this data over time to ensure we have total inclusion of our users 
@@ -83,7 +83,7 @@ Network Engineers Manifesto
 - Monthly SLA reporting of WAN performance based on 100% meshed pinging of remote offices 
 
 
-##### Reporting
+### Reporting
 
 - Every single SNMP trap has to be actionable 
 - Every single packet drop in our network has to be actionable
@@ -91,7 +91,7 @@ Network Engineers Manifesto
 - Apply predictive algorithms to our graphing to alert of trends before they become issues.
 
 
-##### Personal Development
+### Personal Development
 
 - everyone must commit to self-improvement
 - Certification track - optional but highly recommended 
