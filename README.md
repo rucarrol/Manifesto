@@ -15,6 +15,10 @@ Network Engineers Manifesto
 
 ##### [Monitoring](Monitoring.md) 
 
+- Monitor also from outside of your network:
+    - Make use of community projects like [RIPE Atlas](https://atlas.ripe.net)
+    - Implement Montitoring probes in your target markets (preferred home connections)
+    - Send all those metrics to the central monitoring
 - Monitor, at least:
 - Per switch:
     - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
