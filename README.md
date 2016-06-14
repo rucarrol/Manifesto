@@ -16,7 +16,7 @@ Network Engineers Manifesto
 ##### [Monitoring](Monitoring.md) 
 
 - Monitor, from outside:
-    - Use of community projects like [RIPE Atlas](https://atlas.ripe.net)
+    - Use community projects like [RIPE Atlas](https://atlas.ripe.net)
     - Implement Montitoring probes in target markets (preferred home connections)
     - Send all those metrics to the central monitoring
 - Monitor, at least:
