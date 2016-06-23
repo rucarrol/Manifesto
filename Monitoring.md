@@ -37,3 +37,7 @@ Below is a list of some tools which can be used to monitor your network
 ## Logcollection
 - [Graylog](https://www.graylog.org)
 - [ELK Stack](https://www.elastic.co/downloads)
+
+## External Monitoring
+- [RIPE-Atlas](https://atlas.ripe.net)
+- [StatusCake](https://statuscake.com)
