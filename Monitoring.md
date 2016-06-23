@@ -16,7 +16,11 @@ Below is a list of some tools which can be used to monitor your network
 - [pmacct](http://www.pmacct.net/)
 - [NFDump](http://nfdump.sourceforge.net/)
 - [ntop](http://www.ntop.org/)
+
+## SPAN/Mirror/pcap based
+
 - [tstat](tstat.polito.it)
+
 
 ## Time Series based
 
