@@ -15,6 +15,9 @@ Network Engineers Manifesto
 
 ### [Monitoring](Monitoring.md) 
 
+- Monitor, from outside:
+    - Implement end-to-end tests (eg. server to server, enduser connections to DC)
+    - Make use of external monitoring services mentioned in [Monitoring](Monitoring.md)
 - Monitor, at least:
 - Per switch:
     - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
