@@ -19,35 +19,35 @@ Network Engineers Manifesto
     - Implement end-to-end tests (eg. server to server, enduser connections to DC)
     - Make use of external monitoring services mentioned in [Monitoring](Monitoring.md)
 - Monitor, at least:
-- Per switch:
-    - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
-    - CPU, Mem, ICMP messages generated 
-    - STP states 
-- Per router:
-    - All routing protocol states 
-    - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
-    - CPU, Mem, ICMP messages generated 
-- Per Firewall:
-    - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
-    - CPU, Mem, ICMP messages generated 
-    - CPS, Throughput
-    - Dropped connections 
-    - ASIC drops 
-- Per LB
-    - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
-    - CPU, Mem, ICMP messages generated 
-    - CPS, Throughput per VIP 
-    - Dropped connections 
-    - ASIC drops 
-- Per AP
-    - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
-    - CPU, Mem, ICMP messages generated 
-    - Logged in users, failed login attempts
-- Per Service
-    - p99, p95 metrics for service latency:
-        - For end to end transaction 
-        - For TCP re-transmissions 
-        - Latency to/drop server from all DCs
+    - Per switch:
+        - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
+        - CPU, Mem, ICMP messages generated 
+        - STP states 
+    - Per router:
+        - All routing protocol states 
+        - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
+        - CPU, Mem, ICMP messages generated 
+    - Per Firewall:
+        - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
+        - CPU, Mem, ICMP messages generated 
+        - CPS, Throughput
+        - Dropped connections 
+        - ASIC drops 
+    - Per LB
+        - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
+        - CPU, Mem, ICMP messages generated 
+        - CPS, Throughput per VIP 
+        - Dropped connections 
+        - ASIC drops 
+    - Per AP
+        - Interface pps,ups,mps,bitrate,drops,errors,buffer depth
+        - CPU, Mem, ICMP messages generated 
+        - Logged in users, failed login attempts
+    - Per Service
+        - p99, p95 metrics for service latency:
+            - For end to end transaction 
+            - For TCP re-transmissions 
+            - Latency to/drop server from all DCs
 - All monitoring to be a single pane of glass for our users, API driven to allow them to extract their own 
 
 
