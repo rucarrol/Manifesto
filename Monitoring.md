@@ -8,7 +8,7 @@ Below is a list of some tools which can be used to monitor your network
 - [Observium](http://observium.org/)
 - [Cacti](http://www.cacti.net/)
 - [OpenNMS](http://www.opennms.org/)
-- [Icinga](https://www.icinga.org/)
+- [Icinga](https://icinga.com/)
 
 ## IPFIX Net/S Flow based 
 
